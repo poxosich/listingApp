@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/listing_sq?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: arsen
+    password: arsen
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
